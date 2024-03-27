@@ -46,7 +46,7 @@ Figure 02  Encoder 8 * 3
 ### RegisterNumber: 212223240069
 
 ```
-module encoder8to3(a0,a1,a2,d0,d1,d2,d3,d4,d5,d6,d7);
+module encoder83(a0,a1,a2,d0,d1,d2,d3,d4,d5,d6,d7);
 input d0,d1,d2,d3,d4,d5,d6,d7;
 output a0,a1,a2;
 assign ao=d1|d3|d5|d7;
@@ -56,7 +56,7 @@ endmodule
 
 ```
 
-![image](https://github.com/keerthanapillaram/ENCODER8TO3DATAFLOW/assets/145743072/e30759fc-efe6-4fc0-886c-c40477f502a7)
+![image](https://github.com/keerthanapillaram/ENCODER8TO3DATAFLOW/assets/145743072/96823896-87ed-4908-89a1-30efa5cf7ef9)
 
 
 
@@ -67,6 +67,7 @@ endmodule
 
 **TIMING DIGRAMS FOR Encoder 8 To 3 in Dataflow Modelling**
 
+![waveform](https://github.com/keerthanapillaram/ENCODER8TO3DATAFLOW/assets/145743072/175984dd-aa6e-4008-840d-d5794b0e7d46)
 
 
 **RESULTS**
