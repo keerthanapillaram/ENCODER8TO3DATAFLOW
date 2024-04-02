@@ -56,29 +56,32 @@ Figure 02  Encoder 8 * 3
 ### RegisterNumber: 212223240069
 
 ```
-module encoder83(a0,a1,a2,d0,d1,d2,d3,d4,d5,d6,d7);
+module ex5(a0,a1,a2,d0,d1,d2,d3,d4,d5,d6,d7);
 input d0,d1,d2,d3,d4,d5,d6,d7;
 output a0,a1,a2;
-assign ao=d1|d3|d5|d7;
+assign a0=d1|d3|d5|d7;
 assign a1=d2|d3|d6|d7;
 assign a2=d4|d5|d6|d7;
 endmodule
 
 ```
 
-![image](https://github.com/keerthanapillaram/ENCODER8TO3DATAFLOW/assets/145743072/96823896-87ed-4908-89a1-30efa5cf7ef9)
+![image](https://github.com/keerthanapillaram/ENCODER8TO3DATAFLOW/assets/145743072/1f2156c8-2054-44f8-a260-0c92f3c4e7c1)
+
 
 
 
 **RTL LOGIC FOR Encoder 8 To 3 in Dataflow Modelling**
 
-![image](https://github.com/keerthanapillaram/ENCODER8TO3DATAFLOW/assets/145743072/48d4ac98-2edd-44ce-93fe-3591390e4d7b)
+![image](https://github.com/keerthanapillaram/ENCODER8TO3DATAFLOW/assets/145743072/37362c32-1439-4ea6-8234-bb8ed557d606)
+
 
 
 **TIMING DIGRAMS FOR Encoder 8 To 3 in Dataflow Modelling**
 
 
-![image](https://github.com/keerthanapillaram/ENCODER8TO3DATAFLOW/assets/145743072/8c3ec942-285b-4034-a8d0-d1f5576563aa)
+![image](https://github.com/keerthanapillaram/ENCODER8TO3DATAFLOW/assets/145743072/52c8d97b-1eba-4dd0-a14b-e8442d6582e1)
+
 
 
 
